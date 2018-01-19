@@ -36,6 +36,8 @@ int main(int argc, const char** argv)
 
             elapsed -= MICROSECS_PER_FRAME;
         }
+
+        int x;
     
         // --- EVENT PROCESSING PHASE ---
         sf::Event event;
